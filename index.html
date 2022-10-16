@@ -1,0 +1,34 @@
+<!DOCTYPE html lang="fr">
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Platine DJ</title>
+    <script src="./myMusicComponent/index.js" type="module"></script>
+</head>
+
+<body>
+    <video class="background-video" autoplay muted loop>
+    <source src="ressources/video/background.mp4" type="video/mp4">
+
+  </video>
+    <my-music-player src="https://mainline.i3s.unice.fr/mooc/LaSueur.mp3"></my-music-player>
+
+    <style>
+        .background-video {
+            height: 100vh;
+            width: 100vw;
+            object-fit: cover;
+            position: fixed;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+    </style>
+</body>
+
+
+
+</html>
